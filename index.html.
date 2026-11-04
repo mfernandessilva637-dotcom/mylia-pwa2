@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#496B48">
+
+  <title>Mylia — Alimentos locais</title>
+
+  <link rel="stylesheet" href="styles.css">
+  <link rel="manifest" href="manifest.webmanifest">
+</head>
+
+<body>
+
+  <header class="header">
+    <a href="#" class="logo">mylia.</a>
+    <button class="menu-button" aria-label="Abrir menu">☰</button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <span class="eyebrow">ALIMENTOS LOCAIS · CONEXÕES REAIS</span>
+
+      <h1>Uma maneira mais próxima de consumir.</h1>
+
+      <p>
+        Conheça quem produz, descubra alimentos
+        da região e aproxime-se de uma nova
+        forma de consumir.
+      </p>
+
+      <a href="#produtos" class="primary-button">
+        Explorar produtos
+      </a>
+    </section>
+
+    <section class="products" id="produtos">
+      <div class="section-heading">
+        <div>
+          <span class="eyebrow">SELEÇÃO LOCAL</span>
+          <h2>Da nossa região</h2>
+        </div>
+        <span class="section-note">Produtos</span>
+      </div>
+
+      <div class="product-grid" id="product-list"></div>
+    </section>
+
+    <section class="about">
+      <span class="eyebrow">NOSSA IDEIA</span>
+      <h2>Alimentos têm histórias. Pessoas também.</h2>
+      <p>
+        A Mylia aproxima produtores e consumidores,
+        valorizando a produção local e facilitando
+        a circulação de alimentos.
+      </p>
+    </section>
+  </main>
+
+  <nav class="bottom-nav">
+    <a href="#" class="active">⌂<span>Início</span></a>
+    <a href="#produtos">▤<span>Produtos</span></a>
+    <a href="#produtos">♧<span>Produtores</span></a>
+    <a href="#pedidos">🛒<span>Pedidos</span></a>
+  </nav>
+
+  <script src="app.js"></script>
+</body>
+</html>
